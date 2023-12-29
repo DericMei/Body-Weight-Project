@@ -13,6 +13,10 @@ Plotly, Streamlit, Pandas, Numpy, PyTorch, EDA, Machine Learning, Deep Learning,
 - lstm.py (codes that stored the function to create the LSTM model, used in app.py)
 - model_lstm.pth (best trained LSTM model)
 - weight_scaler.pkl (the saved scalar in a file to denormalize)
+- LICENSE (MIT license)
+- requirements.txt (stats the packages used by this project for streamlit)
+- README.md (This file you are reading right now)
+- Pictures (A folder containing all pictures used by this project)
 ## Usage
 To view the entire project, check out the jupyter notebook file (Project Code.ipynb), details are all explained with markdown cells. To run the demo application I created, click this link: [Eric Mei Body Weight Project](https://ericmeibodyweight.streamlit.app).
 ## Data Source
