@@ -174,7 +174,7 @@ st.write('### Predict the Next Day\'s Weight')
 # Input fields to enter the 7 days of weight data
 input_weights = []
 for i in range(1, 8):
-    weight = st.number_input(f'Enter weight for Day {i}', min_value=75, value=80)  # You can adjust default and range
+    weight = st.number_input(f'Enter weight for Day {i}', min_value=75.0, value=80.0, step=0.1, format="%.1f")
     input_weights.append(weight)
 
 if st.button('Predict Next Day\'s Weight'):
